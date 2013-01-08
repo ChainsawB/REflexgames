@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Welcome to REflex"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/startbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="mainActivity"
+        android:text="Start"
+        android:width="100dp" />
+
+    <Button
+        android:id="@+id/scorebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/startbutton1"
+        android:layout_below="@+id/startbutton1"
+        android:layout_marginTop="19dp"
+        android:onClick="scores"
+        android:text="High Scores"
+        android:width="100dp" />
+
+    <Button
+        android:id="@+id/quitbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scorebtn"
+        android:layout_below="@+id/scorebtn"
+        android:layout_marginTop="18dp"
+        android:text="Quit"
+        android:width="100dp" />
+
+</RelativeLayout>
